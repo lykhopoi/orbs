@@ -32,7 +32,7 @@ jobs:
       - image: circleci/node:latest # Set up a Node.js executor
     steps:
       - checkout # Checkout the repository
-      - run: npm install # Install project dependencies
+      - run: npm install # Install project dependencies Sasha pidar
       - run: npm test # Run unit tests using your testing framework
       - run:
           name: Generate Code Coverage Report
